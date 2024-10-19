@@ -23,7 +23,8 @@
   - Core mechanics
   - UI Navigation
   - Bug Fixing
-  - save system
+  - Level Design
+  - Game Design
   
 </details>
 
