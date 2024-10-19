@@ -1,6 +1,8 @@
-<h1>Phase Jumper</h1>
+# Phase Jumper
 
-![PhaseJumperGP](https://github.com/MicksS1/SideScroll-GameProg/assets/158981991/84f156fe-552a-47bd-acdc-a8668b1820b1)
+<p align="center">
+  <img src="https://github.com/MicksS1/SideScroll-GameProg/assets/158981991/84f156fe-552a-47bd-acdc-a8668b1820b1">
+</p>
 
 ## 🔴 About This Project
 <p align="justify">This is one of my first projects in Unity, designed to help me grasp the fundamentals by building a side-scroller. Through this project, I’ve gained experience with Unity’s 2D physics system, implemented basic player movement, manipulated game objects, worked with tilemaps, and utilized JSON saving data, among other skills.</p>
@@ -9,9 +11,19 @@
 
 ## 📋 Project Info
 
-| **Role** | **Team Size** | **Development Time** | **Engine** |
-|:-|:-|:-|:-|
-| Game Programmer | 1 | 3 weeks | Unity 2022|
+| **Role** | **Name** | **Development Time** 
+|:-|:-|:-|
+| Game Programmer | Michael Ardisa | 1 week |
+
+<details>
+  <summary> <b>My Contribution (Game programmer)</b> </summary>
+  
+  - Core mechanics
+  - UI Navigation
+  - Bug Fixing
+  - save system
+  
+</details>
 
 <br>
 
