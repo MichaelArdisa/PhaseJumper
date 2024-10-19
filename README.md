@@ -11,6 +11,8 @@
 
 ## 📋 Project Info
 
+<b> Developed with Unity 2022 </b>
+
 | **Role** | **Name** | **Development Time** 
 |:-|:-|:-|
 | Game Programmer | Michael Ardisa | 1 week |
