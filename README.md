@@ -27,11 +27,6 @@
 
 <br>
 
-## 👤 Meet the Team
-- Michael Ardisa (Lead Programmer, Level Designer & Game Designer)  
-
-<br>
-
 ## ♦️About Game
 <p align="justify">Phase Jumper is a fast paced side scroller where the main character has the ability to teleport through objects! Try your best to finish the levels as fast as possible with as little deaths as possible.  </p>
 
@@ -44,55 +39,20 @@
 
 ## ⚙️ Game Mechanics I Created
 ### Simple Saving System
-<p align="justify">The saving system in PhaseJumper is done by utilizing the JSON file format to store key player data which includes the player's last level, player checkpoint position, death count, and timer. Which is then saved within the game.  </p>
+<img src="https://github.com/user-attachments/assets/4bfda7b3-ab3c-4c10-80ee-f5b0a01c8f73" style="width: 67%;">
 
-```
-// runs everytime the player hits a checkpoint
-public void SaveData()
-{
-    PlayerData data = new PlayerData();
-    data.level = level;
-    data.spawnPos = CP.newPos;
-    data.deathCount = PM.deaths;
-    data.timer = timeData.time;
-
-    string PData = JsonUtility.ToJson(data);
-    File.WriteAllText(Application.dataPath + "/PlayerSaveFile.json", PData);
-    
-    Debug.Log(PData);
-}
-
-// runs everytime the player dies or presses the "go to last checkpoint" button
-public void LoadData()
-{
-    string PLoadData = File.ReadAllText(Application.dataPath + "/PlayerSaveFile.json");
-    PlayerData loadedData = JsonUtility.FromJson<PlayerData>(PLoadData);
-
-    CP.startPos = loadedData.spawnPos;
-    PM.deaths = loadedData.deathCount;
-    timeData.time = loadedData.timer;
-
-    Debug.Log(PLoadData);
-}
-```
+- Logic is located within the `SaveManager.cs` script
+- JSON file format is used to store key player data.
+- Data includes player's last level, checkpoint position, death count, and timer.
+- All data is saved within the game to track player progress.
 
 ### Simple Checkpoint System
-<p align="justify">The checkpoint system in PhaseJumper integrates with the saving system, triggering a save each time the player reaches a checkpoint. It uses PlayerPrefs to store the player's updated X and Y coordinates, which are later combined into a Vector2 and saved in the JSON file format.</p>
+![CheckpointGameplay (1)](https://github.com/user-attachments/assets/c576c69e-fa9a-4c83-af7e-bfa9c3b02156)
 
-```
-private void OnTriggerStay2D(Collider2D coll)
-{
-    if (coll.gameObject.tag == "Player")
-    {
-        CPAnim.SetTrigger("GoActive");
-
-        PlayerPrefs.SetFloat("CheckpointX", pos.position.x);
-        PlayerPrefs.SetFloat("CheckpointY", pos.position.y);
-
-        SaveManager.SaveData();
-    }
-}
-```
+- Logic is located within the `CP_Behaviour.cs` script
+- The checkpoint system integrates with the saving system, triggering a save at each checkpoint.
+- PlayerPrefs is used to store updated player X and Y coordinates.
+- The coordinates are combined into a Vector2 and saved in JSON format for tracking progress.
 
 <br>
 
@@ -123,4 +83,4 @@ private void OnTriggerStay2D(Collider2D coll)
 
 ## 💻 Setup
 
-If you want to try the game out, go to the right of the list of files, click "Releases".
+If you want to try the game out, go to the right of the list of files, click "Releases" or just click <a href="https://github.com/MichaelArdisa/PhaseJumper/releases/download/v1.0/PhaseJumper.zip">here</th>
