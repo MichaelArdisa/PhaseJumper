@@ -42,7 +42,7 @@
 
 ## ⚙️ Game Mechanics I Created
 ### Simple Saving System
-<img src="https://github.com/user-attachments/assets/4bfda7b3-ab3c-4c10-80ee-f5b0a01c8f73" style="width: 67%;">
+<img src="https://github.com/user-attachments/assets/4bfda7b3-ab3c-4c10-80ee-f5b0a01c8f73" style="width: 80%;">
 
 - Logic is located within the `SaveManager.cs` script
 - JSON file format is used to store key player data.
