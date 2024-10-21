@@ -14,7 +14,7 @@
 <b> Developed with Unity 2022 </b>
 
 | **Role** | **Name** | **Development Time** 
-|:-|:-|:-|
+| - | - | - |
 | Game Programmer | Michael Ardisa | 1 week |
 
 <details>
@@ -75,7 +75,7 @@
 ## 🕹️ Controls
 
 | **Key Binding** | **Function** |
-|:-|:-|
+| - | - |
 | A, S, D | Basic movement |
 | Space | Jump |
 | S-MidAir | Fast-Fall |
