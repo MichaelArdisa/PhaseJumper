@@ -86,4 +86,4 @@
 
 ## 💻 Setup
 
-If you want to try the game out, go to the right of the list of files, click "Releases" or just click <a href="https://github.com/MichaelArdisa/PhaseJumper/releases/download/v1.0/PhaseJumper.zip">here</th>
+If you want to try the game out, go to the right of the list of files, click "Releases" or just click <a href="https://github.com/MichaelArdisa/PhaseJumper/releases/download/v1.0/PhaseJumper.zip">here</th>.
