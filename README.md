@@ -63,11 +63,11 @@
 
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `GameManager.cs` | Manages the game flow, main menu, pause menu, etc. |
-| `AudioManager.cs`  | Responsible for all the audio in the game. |
-| `PMove.cs`  | Manages all player movements. |
-| `SaveManager.cs`  | Manages the logic behind saving the player's data. |
-| `CP_Behaviour.cs`  | Manages the behaviour of checkpoints |
+| <a href="https://github.com/MichaelArdisa/PhaseJumper/blob/main/Assets/Scripts/GameManager.cs"> `GameManager.cs` </a> | Manages the game flow, main menu, pause menu, etc. |
+| <a href="https://github.com/MichaelArdisa/PhaseJumper/blob/main/Assets/Scripts/AudioManager.cs"> `AudioManager.cs` </a> | Responsible for all the audio in the game. |
+| <a href="https://github.com/MichaelArdisa/PhaseJumper/blob/main/Assets/Scripts/PMove.cs"> `PMove.cs` </a> | Manages all player movements. |
+| <a href="https://github.com/MichaelArdisa/PhaseJumper/blob/main/Assets/Scripts/SaveManager.cs"> `SaveManager.cs` </a> | Manages the logic behind saving the player's data. |
+| <a href="https://github.com/MichaelArdisa/PhaseJumper/blob/main/Assets/Scripts/CP_Behaviour.cs"> `CP_Behaviour.cs` </a> | Manages the behaviour of checkpoints |
 | `etc`  |
 
 <br>
